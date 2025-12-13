@@ -16,3 +16,22 @@ This project computes the intersection points of conic sections (ellipses, hyper
 - Detects special cases like tangency and overlapping conics.
 - Avoids numerical instability in standard geometric configurations.
 
+## Installation
+
+**1. Clone the repository with submodules:**
+```bash
+git clone --recursive <repository_url>
+```
+
+If already cloned, initialize submodules:
+```bash
+git submodule update --init --recursive
+```
+
+**2. Build and run:**
+```bash
+mkdir build && cd build
+cmake ..
+make
+./<your_executable_name>
+```
